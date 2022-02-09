@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '瑞德尔烧结炉管理系统',
+      title: '工业设备后台管理系统',
       logo: logoImg
     }
   }

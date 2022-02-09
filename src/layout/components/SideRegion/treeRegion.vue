@@ -1,7 +1,6 @@
 <template>
 <div>
     <el-tree :data="data" :props="defaultProps" @check="handleNodeClick" show-checkbox ></el-tree>
-    <button>被选择的节点{{this.$store.getters.selectedNode}}</button>
 </div>
 </template>
 

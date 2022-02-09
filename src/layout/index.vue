@@ -14,8 +14,6 @@
       </right-panel>
     </div>
     <div class="footer">
-      <img class="ruideerlogo" src="@/assets/logo/ruideerlogo.png" alt="logo">
-      <div class="ruideer">瑞德尔-Ruideer</div>
       <div class="ruideer_version">当前版本1.0.1</div>
       <img class="icon" src="@/assets/icons/version.png" alt="logo">
       
