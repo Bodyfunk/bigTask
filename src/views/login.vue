@@ -1,13 +1,12 @@
 <template>
   <div class="login">
     <el-tabs type="border-card" class="borderCard">
-      <el-tab-pane label="扫码登陆">
-          <wxLogin />    
-      </el-tab-pane>
+
       <el-tab-pane label="手机登陆">
         <div class="phonelogin">
         <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
       <h3 class="title">工业设备后台管理系统</h3>
+      <span>测试账号为：13786660689；再点击发送短信，默认验证码为：1234</span>
       <el-form-item prop="userphone">
         <el-input v-model="loginForm.userphone" type="text" auto-complete="off" placeholder="手机号">
           <svg-icon slot="prefix" icon-class="phone" class="el-input__icon input-icon" />
